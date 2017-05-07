@@ -48,7 +48,11 @@ class SiteController extends Controller
             'html' => 'sleepy',
         ])
             //->setTo('zhandos.90@gmail.com')
-            ->setTo('kravetsss@gmail.com')
+            ->setTo([
+                'kravetsss@gmail.com',
+                'zhandos.90@gmail.com',
+                'gawawa.developer@gmail.com',
+            ])
             ->setFrom(['support@trytopic.com' => 'Sleepy'])
             ->setSubject('Sleepy')
             ->send();
