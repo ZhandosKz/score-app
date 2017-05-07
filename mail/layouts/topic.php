@@ -304,7 +304,7 @@
 <![endif]-->
 
 <div align="center" class="mail__wrapper"
-     style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #5a67b8; table-layout: fixed; width: 100%;">
+     style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #8fb388; table-layout: fixed; width: 100%;">
     <?php
     /**
      * @var \yii\web\View $this
@@ -347,44 +347,6 @@
         }
         echo $content;
         ?>
-        <tr>
-            <td class="row row_length_three row_footer"
-                style="font-size: 0; padding-top: 0; text-align: center; padding-bottom: 25px;">
-                <!--[if (gte mso 9)|(IE)]>
-                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
-                    <tr>
-                        <td width="50%" class="row__outlook-hack">
-                <![endif]-->
-                <div class="row__column"
-                     style="display: inline-block; vertical-align: top; width: 100%; color: #ffffff; max-width: 260px;">
-                    <table class="row__inner" width="100%" cellpadding="10" cellspacing="0"
-                           style="border-collapse: collapse;">
-                        <tr>
-                            <td style="padding: 40px 0 0; padding-top: 20px;">
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <!--[if (gte mso 9)|(IE)]>
-                </td>
-                <td width="50%" class="row__outlook-hack">
-                <![endif]-->
-                <div class="row__column"
-                     style="display: inline-block; vertical-align: top; width: 100%; color: #ffffff; max-width: 260px;">
-                    <table class="row__inner" width="100%" cellpadding="10" cellspacing="0"
-                           style="border-collapse: collapse;">
-                        <tr>
-                            <td style="padding: 40px 0 0; padding-top: 20px;">
-
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <!--[if (gte mso 9)|(IE)]>
-                </td></tr></table>
-                <![endif]-->
-            </td>
-        </tr>
     </table>
     <!--[if (gte mso 9)|(IE)]>
     </td></tr></table>

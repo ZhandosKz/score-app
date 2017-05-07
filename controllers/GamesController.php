@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use yii\web\Controller;
+use Yii;
 
 class GamesController extends Controller
 {
@@ -63,6 +64,14 @@ class GamesController extends Controller
                 'avatar' => '/images/players/2.png',
             ],
         ];
+
+        Yii::$app->mailer->compose([
+            'html' => 'congratulations',
+        ])
+            ->setTo('zhandos.90@gmail.com')
+            ->setFrom(['support@trytopic.com' => 'Support Trytopic'])
+            ->setSubject('Congratulations')
+            ->send();
 
         return $this->render('results', [
             'players' => $players,
