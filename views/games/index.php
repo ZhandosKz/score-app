@@ -6,7 +6,7 @@ use yii\helpers\Html;
     <h1>Scope App</h1>
     <div class="game-begin__dashboard"></div>
 
-    <?= Html::beginForm(['game',], 'get', [
+    <?= Html::beginForm(['session',], 'get', [
         'class' => 'game-begin__form',
     ]) ?>
     <input placeholder="Your game id"><button type="submit">Go!</button>

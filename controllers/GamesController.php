@@ -11,8 +11,13 @@ class GamesController extends Controller
         return $this->render('index');
     }
 
-    public function actionGame()
+    public function actionSession()
     {
-        return $this->render('game');
+        return $this->render('session');
+    }
+
+    public function actionResults()
+    {
+            return $this->render('results');
     }
 }

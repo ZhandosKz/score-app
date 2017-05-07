@@ -7,6 +7,9 @@ body {
     font-family: "Myriad pro", sans-serif;
     color: #FFFFFF;
 }
+input, button {
+    border: 0;
+}
 
 ::-webkit-input-placeholder {color:#FFFFFF;}
 ::-moz-placeholder          {color:#FFFFFF; opacity: 1;}/* Firefox 19+ */
@@ -65,6 +68,57 @@ body {
     padding: 0 60px;
 }
 
+/* Game session */
+.game-session {
+    margin: auto auto;
+    width: 940px;
+}
+.game-session__player {
+    width: 350px;
+}
+.game-session__player input {
+    width: 260px;
+    margin: 0 auto;
+    background: transparent;
+    display: block;
+    text-align: center;
+}
+.game-session__player input,
+.game-session__divider {
+    font-size: 400px;
+    font-weight: 100;
+}
+.game-session__divider {
+    width: 230px;
+    line-height: 480px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:  Georgia, "Times New Roman", Times, serif;
+}
+.game-session__player,
+.game-session__divider {
+    float: left;
+}
+.player {
+    margin-top: -90px;
+    text-align: center;
+    display: block;
+    background: #6674ca;
+    padding: 30px 60px;
+}
+.player__img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.player__name {
+    line-height: 62px;
+    vertical-align: middle;
+    font-size: 55px;
+    font-weight: 100;
+}
 @media(max-width:767px) {
 
 }
