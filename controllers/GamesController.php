@@ -68,7 +68,10 @@ class GamesController extends Controller
         Yii::$app->mailer->compose([
             'html' => 'congratulations',
         ])
-            ->setTo('kravetsss@gmail.com')
+            ->setTo([
+                'kravetsss@gmail.com',
+                'zhandos.90@gmail.com',
+            ])
             ->setFrom(['support@trytopic.com' => 'Scorer'])
             ->setSubject('Congratulations')
             ->send();
