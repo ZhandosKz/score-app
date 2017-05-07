@@ -73,6 +73,7 @@ class GamesController extends Controller
                 ->setTo([
                     'kravetsss@gmail.com',
                     'zhandos.90@gmail.com',
+                    'vj@brk.im',
                 ])
                 ->setFrom(['support@trytopic.com' => 'Scorer'])
                 ->setSubject('Congratulations')
