@@ -34,9 +34,9 @@ class GamesController extends Controller
                 'isCurrent' => true,
             ],
             [
-                'name' => 'Alex',
+                'name' => 'Vasu',
                 'score' => 2,
-                'avatar' => '/images/players/alex.png',
+                'avatar' => '/images/players/vasu.jpg',
                 'isCurrent' => true,
             ],
             [
@@ -47,11 +47,6 @@ class GamesController extends Controller
                 'name' => 'Ruchi',
                 'score' => 1,
                 'avatar' => '/images/players/6.png',
-            ],
-            [
-                'name' => 'Vasu',
-                'score' => 1,
-                'avatar' => '/images/players/5.png',
             ],
             [
                 'name' => 'Natt',

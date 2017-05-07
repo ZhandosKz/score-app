@@ -27,7 +27,7 @@ use yii\helpers\Html;
     <label class="game-session__player">
         <input type="text" id="right_player" name="right_player" placeholder="0"/>
         <span class="player">
-            <img src="/images/players/alex.png" class="player__img"><span class="player__name">Alex</span>
+            <img src="/images/players/vasu.jpg" class="player__img"><span class="player__name">Vasu</span>
         </span>
     </label>
     <?= Html::endForm() ?>
