@@ -36,14 +36,20 @@ class GamesController extends Controller
             [
                 'name' => 'Vasu',
                 'score' => 2,
-                'avatar' => '/images/players/vasu.jpg',
+                'avatar' => '/images/players/vasu.png',
                 'isCurrent' => true,
             ],
             [
-                'name' => 'Tom',
+                'name' => 'Alex',
                 'score' => 2,
+                'avatar' => '/images/players/alex.png',
+            ],
+            [
+                'name' => 'Tom',
+                'score' => 1,
                 'avatar' => '/images/players/3.png',
-            ],  [
+            ],
+            [
                 'name' => 'Ruchi',
                 'score' => 1,
                 'avatar' => '/images/players/6.png',
