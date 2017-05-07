@@ -18,7 +18,7 @@ use yii\helpers\Html;
     <label class="game-session__player">
         <input type="text" id="left_player" name="left_player" placeholder="0"/>
         <span class="player">
-            <img src="/images/player/matt.png" class="player__img"><span class="player__name">Matt</span>
+            <img src="/images/players/matt.png" class="player__img"><span class="player__name">Matt</span>
         </span>
     </label>
     <div class="game-session__divider">
@@ -27,7 +27,7 @@ use yii\helpers\Html;
     <label class="game-session__player">
         <input type="text" id="right_player" name="right_player" placeholder="0"/>
         <span class="player">
-            <img src="/images/player/alex.png" class="player__img"><span class="player__name">Alex</span>
+            <img src="/images/players/alex.png" class="player__img"><span class="player__name">Alex</span>
         </span>
     </label>
     <?= Html::endForm() ?>

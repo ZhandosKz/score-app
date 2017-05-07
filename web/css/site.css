@@ -119,6 +119,49 @@ input, button {
     font-size: 55px;
     font-weight: 100;
 }
+
+/* Game results */
+.results-table {
+    float: left;
+    padding-top: 30px;
+}
+.results-table__player {
+    width: 580px;
+    padding: 15px 65px 15px 25px;
+    border-bottom: 1px solid #606dc1;
+}
+.results-table__player:last-child {
+    border-bottom: 0;
+}
+.results-table__player:nth-child(2n) {
+    background: #606dc1;
+}
+.results-table .results-table__player_current {
+    background: #df4646;
+}
+.results-table__player-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.results-table__player-name,
+.results-table__player-score {
+    vertical-align: middle;
+    line-height: 62px;
+    font-size: 30px;
+}
+.results-table__player-score {
+    float: right;
+}
+.game-results__splash {
+    float: right;
+    color: #7887e5;
+    font-size: 150px;
+    font-weight: 100;
+    padding-top: 25px;
+}
 @media(max-width:767px) {
 
 }
