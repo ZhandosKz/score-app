@@ -36,16 +36,33 @@ $urlManager = Yii::$app->getUrlManager();
                    style="border-collapse: collapse; margin-top: 20px; text-align: left;">
                 <tbody>
                 <tr>
-                    <td style="width: 236px;">
-                        <img width="236" height="290"
-                             src="<?= $urlManager->createAbsoluteUrl('/images/mail/player.png') ?>">
-                    </td>
                     <td class="paragraph"
                         style="color: #444444; font-family: 'Open Sans','Helvetica Neue','Segoe UI','Roboto',Arial,sans-serif; font-size: 24px; font-weight: 200; line-height: 30px; text-align: left;">
-                        You won your 6th game. To become 1st you need to win 9 more games.
+                        Based on your Sleepy Coefficent , you were pretty tired this week. You can:<br/>
+                        - Try to go to sleep and get up at the same time every day.<br/>
+                        - Avoid sleeping in—even on weekends.<br/>
+                        - Be smart about napping.
                         <br/>
                         <br/>
-                        Level up your game with better ping pong equipment:
+                        Or just have a rest in this beautiful hotels:
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px; text-align: center">
+                        <img width="500" height="256"
+                             src="<?= $urlManager->createAbsoluteUrl('/images/mail/hotel_1.png') ?>">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px; text-align: center">
+                        <img width="500" height="256"
+                             src="<?= $urlManager->createAbsoluteUrl('/images/mail/hotel_2.png') ?>">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px; text-align: center">
+                        <img width="500" height="256"
+                             src="<?= $urlManager->createAbsoluteUrl('/images/mail/hotel_3.png') ?>">
                     </td>
                 </tr>
                 </tbody>
@@ -63,9 +80,9 @@ $urlManager = Yii::$app->getUrlManager();
                                         <td bgcolor="#df4646" style="padding: 20px 40px; border-radius: 4px;">
                                             <div
                                                 style="font-family: 'Open Sans','Helvetica Neue','Segoe UI','Roboto',Arial,sans-serif; font-size: 24px; font-weight: 200; text-align: center;">
-                                                <a href="https://trytopic.com/ec/Badminton-Equipment" target="_blank"
+                                                <a href="http://booking.com" target="_blank"
                                                    style="color: #ffffff !important; text-decoration: none;"><span
-                                                        style="color: #ffffff !important; text-decoration: none;">Better sports equipment</span></a>
+                                                        style="color: #ffffff !important; text-decoration: none;">Check more hotels</span></a>
                                             </div>
                                         </td>
                                     </tr>
