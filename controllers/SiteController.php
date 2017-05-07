@@ -48,8 +48,8 @@ class SiteController extends Controller
             'html' => 'sleepy',
         ])
             ->setTo('kravetsss@gmail.com')
-            ->setFrom(['support@trytopic.com' => 'Scorer'])
-            ->setSubject('Congratulations')
+            ->setFrom(['support@trytopic.com' => 'Sleepy'])
+            ->setSubject('Sleepy')
             ->send();
     }
 
