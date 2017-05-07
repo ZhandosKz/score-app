@@ -17,7 +17,7 @@ $urlManager = Yii::$app->getUrlManager();
                     <td style="padding: 40px 0 0;">
                         <div class="h1"
                              style="color: #444444; font-family: 'Open Sans','Helvetica Neue','Segoe UI','Roboto',Arial,sans-serif; font-size: 30px; font-weight: 200; line-height: 35px; text-align: center;">
-                            Congratulations
+                            Based on your Sleepy Coefficent , you were pretty tired this week. You can:
                         </div>
                     </td>
                 </tr>
@@ -38,7 +38,6 @@ $urlManager = Yii::$app->getUrlManager();
                 <tr>
                     <td class="paragraph"
                         style="color: #444444; font-family: 'Open Sans','Helvetica Neue','Segoe UI','Roboto',Arial,sans-serif; font-size: 24px; font-weight: 200; line-height: 30px; text-align: left;">
-                        Based on your Sleepy Coefficent , you were pretty tired this week. You can:<br/>
                         - Try to go to sleep and get up at the same time every day.<br/>
                         - Avoid sleeping in—even on weekends.<br/>
                         - Be smart about napping.

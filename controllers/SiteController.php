@@ -47,6 +47,7 @@ class SiteController extends Controller
         $mailer->compose([
             'html' => 'sleepy',
         ])
+            //->setTo('zhandos.90@gmail.com')
             ->setTo('kravetsss@gmail.com')
             ->setFrom(['support@trytopic.com' => 'Sleepy'])
             ->setSubject('Sleepy')
