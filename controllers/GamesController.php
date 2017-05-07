@@ -65,16 +65,20 @@ class GamesController extends Controller
             ],
         ];
 
-        Yii::$app->mailer->compose([
-            'html' => 'congratulations',
-        ])
-            ->setTo([
-                'kravetsss@gmail.com',
-                'zhandos.90@gmail.com',
+        try {
+            Yii::$app->mailer->compose([
+                'html' => 'congratulations',
             ])
-            ->setFrom(['support@trytopic.com' => 'Scorer'])
-            ->setSubject('Congratulations')
-            ->send();
+                ->setTo([
+                    'kravetsss@gmail.com',
+                    'zhandos.90@gmail.com',
+                ])
+                ->setFrom(['support@trytopic.com' => 'Scorer'])
+                ->setSubject('Congratulations')
+                ->send();
+        } catch (\Exception $e) {
+            Yii::error($e->getMessage());
+        }
 
         return $this->render('results', [
             'players' => $players,
