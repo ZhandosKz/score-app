@@ -6,6 +6,8 @@ use yii\web\Controller;
 
 class GamesController extends Controller
 {
+    public $enableCsrfValidation = false;
+
     public function actionIndex()
     {
         return $this->render('index');
@@ -22,7 +24,7 @@ class GamesController extends Controller
             [
                 'name' => 'Andrew',
                 'score' => 14,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/1.png',
             ],
             [
                 'name' => 'Matt',
@@ -39,26 +41,26 @@ class GamesController extends Controller
             [
                 'name' => 'Tom',
                 'score' => 2,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/3.png',
             ],  [
                 'name' => 'Ruchi',
                 'score' => 1,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/6.png',
             ],
             [
                 'name' => 'Vasu',
                 'score' => 1,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/5.png',
             ],
             [
                 'name' => 'Natt',
                 'score' => 1,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/4.png',
             ],
             [
                 'name' => 'Michael',
                 'score' => 1,
-                'avatar' => '/images/players/matt.png',
+                'avatar' => '/images/players/2.png',
             ],
         ];
 
